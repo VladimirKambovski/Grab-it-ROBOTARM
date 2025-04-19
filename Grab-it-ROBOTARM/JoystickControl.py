@@ -3,7 +3,7 @@ import serial
 import time
 
 # Initialize Serial Communication with Arduino
-arduino = serial.Serial('COM3', 115200, timeout=0.1)  # Change to 'COMX' on Windows
+arduino = serial.Serial('COM3', 115200, timeout=0.1) 
 
 # Initialize pygame and the PS4 controller
 pygame.init()
